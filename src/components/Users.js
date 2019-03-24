@@ -15,4 +15,4 @@ class Users extends Component {
 
 //add mapStateToProps here
 
-export default Users
+export default connect()(Users);
