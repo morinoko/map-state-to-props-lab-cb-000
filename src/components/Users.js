@@ -5,7 +5,7 @@ class Users extends Component {
 
   render() {
     const users = this.props.users.map((user, index) => {
-      return <li key={index}>{user.username}</li>
+      return <li key={index}>{user}</li>
     });
     
     return (
