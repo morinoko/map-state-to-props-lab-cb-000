@@ -4,9 +4,12 @@ import { connect } from 'react-redux'
 class Users extends Component {
 
   render() {
+    const users = this.state.users.map(user => `<li>${user.username}</li>`).join('');
+    
     return (
       <div>
         <ul>
+          {users}
           <li>{this.props.userCount}</li>
         </ul>
       </div>
