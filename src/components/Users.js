@@ -7,7 +7,7 @@ class Users extends Component {
     return (
       <div>
         <ul>
-          Users!
+          <li>{this.props.userCount}</li>
         </ul>
       </div>
     )
